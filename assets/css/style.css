@@ -437,3 +437,46 @@ body {
         height: auto;
     }
 }
+/* ================= INFO SECTION ================= */
+.info-section{
+  background:#F3F4F6;
+  padding:80px 0;
+}
+
+
+/* MAIN ROW (FIGMA LAYOUT) */
+.info-section .row{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  gap:60px;
+}
+
+/* LEFT BOX (TEXT AREA) */
+.info-section .col-lg-6:first-child{
+  width:588px;
+  height:496px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+/* RIGHT BOX (IMAGE AREA) */
+.info-section .col-lg-6:last-child{
+  width:468px;
+  height:468px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* IMAGE FIX */
+.info-img img{
+  width:468px;
+  height:468px;
+  object-fit:contain;
+  display:block;
+}
