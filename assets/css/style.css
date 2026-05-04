@@ -77,3 +77,12 @@ body {
 
     transition: 0.3s ease;
 }
+.nav-item:last-child .nav-link:hover{
+    background-color: #2e22c0;
+    color: white !important;
+}
+.navbar-toggler{
+    border: none;
+    box-shadow: none !important;
+    padding: 0;
+}
