@@ -1078,3 +1078,35 @@ body {
   align-items: center;
   gap: 12px;
 }
+.footer-nav li::before {
+  content: '—';
+  color: #FDB441;
+  font-weight: 700;
+}
+
+.footer-nav li a {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FDB441;
+  text-decoration: none;
+}
+
+.footer-nav li a:hover {
+  color: #ffffff;
+}
+
+/* Newsletter Card */
+.newsletter-card {
+  background: #FDB441;
+  border-radius: 24px;
+  padding: 36px;
+}
+
+.newsletter-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #02033B;
+  margin-bottom: 12px;
+}
