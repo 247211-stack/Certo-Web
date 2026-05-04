@@ -1185,3 +1185,64 @@ body {
     flex-direction: column;
   }
 }
+/* ================= UNIFIED BUTTON STYLE FIX ================= */
+
+/* Yellow Primary Button (same hero style) */
+.btn-yellow {
+  display: inline-block;
+  padding: 15px 35px;
+  background: #FFC247;
+  color: #02033B;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-yellow:hover {
+  background: #e5ae40;
+}
+
+/* Outline Button (same hero style) */
+.btn-outline {
+  display: inline-block;
+  padding: 15px 35px;
+  border: 2px solid #02033B;
+  color: #02033B;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #02033B;
+  color: #fff;
+}
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  width: 912px;          /* Hug width */
+  height: 296px;         /* Hug height */
+
+  padding-left: 36px;
+  padding-right: 36px;
+
+  gap: 72px;
+
+  margin: 0 auto;        /* center */
+}
+.footer-center li {
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #F5B335;   /* ✅ yellow text */
+  position: relative;
+  padding-left: 22px;
+  cursor: pointer;
+}
+.footer-center h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  position: relative;
+}
