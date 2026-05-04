@@ -35,3 +35,22 @@ body {
     height: auto;
     display: block;
 }
+/* Links */
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.nav-link{
+    position: relative;
+
+    color: #02033B !important;
+
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+
+    padding: 0 !important;
+
+    transition: 0.3s ease;
+}
