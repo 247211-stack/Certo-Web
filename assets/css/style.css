@@ -796,3 +796,37 @@ body {
     text-align: center;
   }
 }
+/* ================= CTA SECTION ================= */
+.cta-section{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  /* Figma spacing */
+  padding-top:84px;
+  padding-right:345px;
+  padding-bottom:84px;
+  padding-left:345px;
+
+  /* Exact section behavior */
+  width:100%;
+  min-height:407.5px;
+
+  background:linear-gradient(180deg,#2925CC,#4B48E5);
+  color:#fff;
+  text-align:center;
+}
+
+/* CONTENT BOX */
+.cta-section .container{
+  width:100%;
+  max-width:1440px;
+}
+
+/* HEADING */
+.cta-section h2{
+  font-size:32px;
+  font-weight:800;
+  line-height:1.3;
+  margin-bottom:12px;
+}
