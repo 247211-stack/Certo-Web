@@ -312,3 +312,58 @@ body {
     left: -300px;
   }
 }
+/* ================= TESTIMONIAL SECTION ================= */
+
+.testimonials {
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Title */
+.test-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #02033B;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+/* 🔥 SLIDER WRAPPER (10% side peek) */
+.slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 5%; /* 👈 gives natural left + right peek */
+}
+
+/* ROW */
+.reviews-row {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+/* CARD */
+.review-card {
+    flex: 0 0 340px;
+    width: 340px;
+    height: 280px;
+
+    background: #fff;
+    border-radius: 40px;
+
+    padding: 28px 28px 80px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
+}
