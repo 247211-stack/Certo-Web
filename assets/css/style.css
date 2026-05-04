@@ -646,3 +646,44 @@ body {
   font-weight: 600;
    width: fit-content;
 }
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 22px;
+  border: 2px solid #02033B;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #02033B;
+  font-weight: 600;
+   width: fit-content;
+}
+
+.cta-section {
+  padding: 84px 345px;
+  background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.cta-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.cta-container h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.cta-container p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
