@@ -137,3 +137,16 @@ body {
     }
 
 }
+/* ================= HERO ================= */
+.hero-section {
+  background-color:#E7EFFA;
+  padding:0;
+  margin: 0;
+
+  position: relative; 
+  overflow: hidden; 
+  z-index: 1;
+  min-height: calc(100vh - 102px);
+  display: flex;
+  align-items: stretch;
+}
