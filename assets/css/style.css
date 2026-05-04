@@ -972,3 +972,29 @@ body {
     width:100%;
   }
 }
+/* ================= FOOTER ================= */
+/* ================= FOOTER ================= */
+.footer {
+  background: #02033B;
+  padding: 80px 0 40px 0;
+}
+
+.footer .container {
+  max-width: 1440px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.footer-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+}
