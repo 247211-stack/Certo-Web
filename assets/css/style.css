@@ -602,3 +602,47 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+.info-card h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #02033B;
+}
+
+.info-card p {
+  font-size: 16px;
+  margin-bottom: 28px;
+  color: #02033B;
+  line-height: 24px;
+}
+
+.help-content {
+  width: 308px;
+}
+
+.help-content h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #02033B;
+}
+
+.help-content p {
+  font-size: 16px;
+  margin-bottom: 28px;
+  color: #02033B;
+  line-height: 24px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background: #3B38F5;
+  color: #fff;
+  border-radius: 28px;
+  text-decoration: none;
+  font-weight: 600;
+   width: fit-content;
+}
