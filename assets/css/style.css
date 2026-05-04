@@ -480,3 +480,49 @@ body {
   object-fit:contain;
   display:block;
 }
+/* TEXT STYLING */
+.info-section h2{
+  font-size:30px;
+  font-weight:900;
+  color:#0B0F3B;
+  line-height:1.4;
+}
+
+.info-section p{
+  margin-top:15px;
+  color:#6B7280;
+  max-width:520px;
+  line-height:1.7;
+}
+
+.info-buttons{
+  margin-top:25px;
+  display:flex;
+  gap:15px;
+}
+
+/* RESPONSIVE */
+@media (max-width:992px){
+  .info-section .row{
+    flex-direction:row;
+    gap:40px;
+  }
+
+  .info-section .col-lg-6:first-child,
+  .info-section .col-lg-6:last-child{
+    width:100%;
+    height:auto;
+    text-align:center;
+  }
+
+  .info-img img{
+    width:100%;
+    height:auto;
+  }
+
+  .info-buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  
+}
