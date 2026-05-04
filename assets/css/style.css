@@ -3,3 +3,13 @@ body {
   font-family: 'Inter', sans-serif;
   color: #0B0F3B;
 }
+* Navbar */
+.navbar{
+    position: relative;
+    z-index: 10;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    background-color: transparent;
+}
