@@ -863,3 +863,36 @@ body {
     font-size:26px;
   }
 }
+/* ================= LATEST INSIGHTS ================= */
+.insights-section{
+  background:#EEF3F9;
+  padding:80px 0;
+  text-align:center;
+}
+
+.insights-title{
+  font-size:40px;
+  font-weight:800;
+  margin-bottom:50px;
+  color:#0B0F3B;
+}
+
+/* GRID */
+.insights-grid{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+/* CARD */
+.insight-card{
+  background:#F5F7FA;
+  width:320px;
+  border-radius:24px;
+  overflow:hidden;
+  text-align:left;
+  height: 550px;
+  position:relative;
+  transition:0.3s ease;
+}
