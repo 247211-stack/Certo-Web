@@ -150,3 +150,19 @@ body {
   display: flex;
   align-items: stretch;
 }
+.hero-ellipse {
+  position: absolute;
+  width: 1770px; 
+  height: 1770px;
+ top: -650px; 
+  left: -550px;
+  background: radial-gradient(
+    50% 50% at 50% 50%, 
+    #FFFFFF 0%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  
+  border-radius: 50%;
+  z-index: -1; 
+  pointer-events: none;
+}
