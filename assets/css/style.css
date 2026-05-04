@@ -526,3 +526,49 @@ body {
   }
   
 }
+/* ================= FEATURES SECTION ================= */
+.features-section{
+  padding:80px 0;
+  background:#F3F7FF;
+}
+
+.features-title{
+  font-size:px;
+  font-weight:800;
+  margin-bottom:30px;
+  font: inter;
+  height: 45px;
+  color:#0B0F3B;
+}
+
+/* MAIN BOX FIXED */
+.features-card{
+  width:840px;
+  min-height:872.5px;   /* fixed height ki jagah min-height */
+  margin-top:50px; 
+   /* 162px zyada tha */
+
+  background:#fff;
+  padding:40px;
+  border-radius:48px;
+  
+
+  box-shadow:12px 12px 20px rgba(0,0,0,0.08);
+}
+
+/* INNER CARDS */
+.feature-item{
+  width:200px;
+  height:265px;
+
+  padding:20px;
+  border-radius:20px;
+}
+
+/* BUTTONS */
+.features-buttons{
+  margin-top:40px;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
