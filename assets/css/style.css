@@ -201,3 +201,41 @@ body {
   margin-bottom: 2rem;
   line-height: 1.7;
 }
+
+/* ================= BUTTONS ================= */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+
+}
+
+.btn-primary-custom {
+  display: inline-block;
+  padding: 15px 35px;
+  background: #FFC247;
+  color: #02033B;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background: #e5ae40;
+}
+
+.btn-outline-custom {
+  display: inline-block;
+  padding: 15px 35px;
+  border: 2px solid #02033B;
+  color: #02033B;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-outline-custom:hover {
+  background: #02033B;
+  color: #fff;
+}
